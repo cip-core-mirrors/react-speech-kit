@@ -42,6 +42,7 @@ module.exports = {
     })
   ],
   devServer: {
-    port: 3007
+    port: 3007,
+    host: '0.0.0.0'
   }
 };
