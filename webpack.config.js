@@ -42,7 +42,12 @@ module.exports = {
     })
   ],
   devServer: {
-    port: 3007,
+    compress: true,
+    inline: true,
     host: '0.0.0.0'
+    port: '8080',
+    allowedHosts: [
+      '.lab-nxtit.com'
+    ]
   }
 };
