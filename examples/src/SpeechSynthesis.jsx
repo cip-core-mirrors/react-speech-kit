@@ -12,7 +12,7 @@ const defaultProps = {
 };
 
 const Example = ({ onEnd }) => {
-  const [text, setText] = useState('I am a robot');
+  const [text, setText] = useState('Cloud Innovation Platform peech synthesis demo!');
   const [pitch, setPitch] = useState(1);
   const [rate, setRate] = useState(1);
   const [voiceIndex, setVoiceIndex] = useState(null);
@@ -23,7 +23,7 @@ const Example = ({ onEnd }) => {
   return (
     <Container>
       <form>
-        <h2>Speech Synthesis</h2>
+        <h2>CIP Speech Synthesis</h2>
         <SpeechSynthesis onEnd={onEnd}>
           {({
             speak,

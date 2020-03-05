@@ -14,20 +14,20 @@ const App = () => (
   <div>
     <GlobalStyles />
     <Title>
-      {'react-speech-kit '}
+      {'CIP Speech Kit Demo'}
       <span role="img" aria-label="microphone">
         🎤
       </span>
     </Title>
     <Row>
-      <SpeechSynthesisExample />
       <SpeechRecognitionExample />
+      <SpeechSynthesisExample />
     </Row>
     <GitLink>
       <img alt="Github" src={gh} />
-      <a href="https://github.com/MikeyParton/react-speech-kit">
-        By MikeyParton
-      </a>
+      <a href="https://github.com/cip-core-mirrors/react-speech-kit">
+        By CIP Professional Services Team
+      </a>, based on <a href="https://github.com/MikeyParton/react-speech-kit"> Mikey Parton's excellent work.</a>
     </GitLink>
   </div>
 );
