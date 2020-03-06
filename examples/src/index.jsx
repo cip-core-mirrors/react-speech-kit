@@ -14,7 +14,7 @@ const App = () => (
   <div>
     <GlobalStyles />
     <Title>
-      {'CIP Speech Kit Demo'}
+      {'CIP Speech Kit Demo, by Marvin, Trust in Digital Data!'}
       <span role="img" aria-label="microphone">
         🎤
       </span>
