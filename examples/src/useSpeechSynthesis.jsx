@@ -3,7 +3,7 @@ import { useSpeechSynthesis } from '../../src';
 import { Container } from './shared';
 
 const Example = () => {
-  const [text, setText] = useState('Cloud Innovation Platform text');
+  const [text, setText] = useState('Simple message demonstrating Cloud Innovation Platform Speech Synthesis using Web Speech API');
   const [pitch, setPitch] = useState(1);
   const [rate, setRate] = useState(1);
   const [voiceIndex, setVoiceIndex] = useState(null);
