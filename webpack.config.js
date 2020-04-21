@@ -46,9 +46,6 @@ module.exports = {
     inline: true,
     host: '0.0.0.0',
     disableHostCheck: true,
-    port: '8080',
-    allowedHosts: [
-      '.lab-nxtit.com'
-    ]
+    port: '8080'
   }
 };
